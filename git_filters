@@ -1,0 +1,8 @@
+[filter "newTab"]
+	clean = "sed 's/newTab: true/newTab: false/g'"
+	smudge = "sed 's/newTab: false/newTab: true/g'"
+
+	
+	.git/attributes file:
+	
+*.html filter=newTab
