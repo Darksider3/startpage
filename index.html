@@ -10,7 +10,7 @@
       ['News', 'Heise', 'heise', 'https://www.heise.de/', '/suche/?q={}', '#ff4e00', 'computer'],
 	  ['News', 'Heise TP', 'tp', 'https://www.heise.de/tp/', '/suche/?rm=search&sort_by=date&channel=tp&sort=d&channel=tp&q={}', '#b42900', 'computer'],
 //      ['News', 'The Register', 'reg', 'https://www.theregister.co.uk/', null, '#111', 'computer'],
-      ['News', 'Reddit', 'r', 'https://www.reddit.com', '/search?q={}', '#5f99cf', 'line_style'],
+      ['News', 'Reddit', 'r', 'https://www.reddit.com', '/search?q={}', '#91181F', 'line_style'],
 	  ['Watch', 'Netflix', 'net', 'https://netflix.com/', '/search?q={}', '#f46842', 'chrome_reader_mode'],
       ['Watch', 'YouTube', 'y', 'https://youtube.com/feed/subscriptions', '/results?search_query={}', '#cd201f', 'live_tv'],
       ['Watch', 'YouTube', 'yt', 'https://youtube.com', '/results?search_query={}', '#cd201f', 'live_tv'],
@@ -171,9 +171,10 @@ import woff end
     margin: 0;
     padding: 0;
     transition: background .2s;
-    font-family: Lato, sans-serif;
-    color: #2B608C;
-    background: url('picture.png') no-repeat center center fixed; 
+    font-family: Hack, Lato, sans-serif;
+    color: #CF5C36;
+    //background: url('picture.png') no-repeat center center fixed;
+    background: black; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +193,7 @@ import woff end
     outline: 0;
     background: transparent;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Hack, Lato, sans-serif;
     text-align: center;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -216,7 +217,7 @@ import woff end
     font-size: 6rem;
     letter-spacing: .0em;
     cursor: pointer; 
-    text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 6px #0099ff, 0 0 6px #0099ff, 0 0 7px #0099ff, 0 0 7px #0099ff, 0 0 8px #0099ff; /*custom*/
+    //text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 6px #0099ff, 0 0 6px #0099ff, 0 0 7px #0099ff, 0 0 7px #0099ff, 0 0 8px #0099ff; /*custom*/
   }
   
 /*-------------------------------------------------------
@@ -282,7 +283,9 @@ CUSTOM START
   
   .icons_ext > a
   {
-    border: 2px dotted #0A4B73;
+    color: #F06543;
+    background: #313638;
+    border: 2px dotted #black;
     border-radius: 10px;
     margin-left: 10px;
     padding-left: 4px;
@@ -1217,4 +1220,5 @@ CUSTOM END
     form: getForm(),
   });
 </script>
-<div id="wcom-0e7bcf124391cad1eedcc4b52819927f" class="wcom-default w300x250" style="border: 1px solid rgb(65, 151, 208);  border-radius: 10px; color: rgb(255, 255, 255); margin-top: -49%; margin-left: 84%;" ><link rel="stylesheet" href="https://cs3.wettercomassets.com/woys/5/css/w.css" media="all"><div class="wcom-city"><a style="color: rgb(255, 255, 255);" href="https://www.wetter.com/deutschland/kelkheim/ruppertshain/DE0005376005.html" target="_blank" rel="nofollow" aria-label="Wetter Berlin" title="Wetter Ruppertshain">Wetter Ruppertshain</a></div><div id="wcom-0e7bcf124391cad1eedcc4b52819927f-weather"></div><script type="text/javascript" src="https://cs3.wettercomassets.com/woys/5/js/w.js"></script><script type="text/javascript">_wcomWidget({id: 'wcom-0e7bcf124391cad1eedcc4b52819927f',location: 'DE0005376005',format: '300x250',type: 'summary'});</script></div>
+<div id="wcom-ea30b43844ce8a0f9518969e7f9f1748" class="wcom-default w300x250" style="position: fixed; top: 0px; right: 0px; border: 1px solid rgb(65, 151, 208);  border-radius: 10px; color: rgb(255, 255, 255);" ><link rel="stylesheet" href="https://cs3.wettercomassets.com/woys/5/css/w.css" media="all"><div class="wcom-city"><a style="color: rgb(255, 255, 255);" href="https://www.wetter.com/deutschland/kelkheim/DE0005376.html" target="_blank" rel="nofollow" aria-label="Wetter Berlin" title="Wetter Kelkheim">Wetter Kelkheim</a></div><div id="wcom-ea30b43844ce8a0f9518969e7f9f1748-weather"></div><script type="text/javascript" src="https://cs3.wettercomassets.com/woys/5/js/w.js"></script><script type="text/javascript">_wcomWidget({id: 'wcom-ea30b43844ce8a0f9518969e7f9f1748',location: 'DE0005376',format: '300x250',type: 'spaces'});</script></div>
+<!--<div id="wcom-0e7bcf124391cad1eedcc4b52819927f" class="wcom-default w300x250" style="border: 1px solid rgb(65, 151, 208);  border-radius: 10px; color: rgb(255, 255, 255); margin-top: -49%; margin-left: 84%;" ><link rel="stylesheet" href="//cs3.wettercomassets.com/woys/5/css/w.css" media="all"><div class="wcom-city"><a style="color: rgb(255, 255, 255);" href="https://www.wetter.com/deutschland/kelkheim/ruppertshain/DE0005376005.html" target="_blank" rel="nofollow" aria-label="Wetter Berlin" title="Wetter Ruppertshain">Wetter Ruppertshain</a></div><div id="wcom-0e7bcf124391cad1eedcc4b52819927f-weather"></div><script type="text/javascript" src="https://cs3.wettercomassets.com/woys/5/js/w.js"></script><script type="text/javascript">_wcomWidget({id: 'wcom-0e7bcf124391cad1eedcc4b52819927f',location: 'DE0005376005',format: '300x250',type: 'summary'});</script></div> -->
