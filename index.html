@@ -7,6 +7,7 @@
     // if none of the specified keys are matched, the '*' key is used
     commands: [
       [null, 'Google', '*', 'https://encrypted.google.com', '/search?q={}', '#111'],
+//[null, 'Google', '*', 'http://localhost:8888/', '/search?q={}', '#111'],
       ['News', 'Heise', 'heise', 'https://www.heise.de/', '/suche/?q={}', '#ff4e00', 'computer'],
 	  ['News', 'Heise TP', 'tp', 'https://www.heise.de/tp/', '/suche/?rm=search&sort_by=date&channel=tp&sort=d&channel=tp&q={}', '#b42900', 'computer'],
 //      ['News', 'The Register', 'reg', 'https://www.theregister.co.uk/', null, '#111', 'computer'],
@@ -48,7 +49,7 @@
     // "DuckDuckGo" suggestions come from the duck duck go search api
     // "History" suggestions come from your previously entered queries
     influencers: [
-      { name: 'Default', limit: 5 },
+      { name: 'Default', limit: 2 },
       { name: 'History', limit: 2 },
       { name: 'DuckDuckGo', limit: 5 },
     ],
